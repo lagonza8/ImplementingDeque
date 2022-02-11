@@ -384,7 +384,10 @@ public class GonzalezDeque<Item> implements Deque<Item>{
         deque.enqueueBack(8);
         deque.dequeueFront();
         System.out.println("size: " + deque.size());
-        System.out.println("contents:\n" + deque.toString());   
+        System.out.println("contents:\n" + deque.toString());
+
+        //Using the linkedlist methods
+        deque.
 
         //deque features
         /*this is a chaotic line with people cutting in front of others and people in the back of the line
