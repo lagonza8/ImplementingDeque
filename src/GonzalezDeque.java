@@ -106,8 +106,8 @@ public class GonzalezDeque<Item> implements Deque<Item>{
             newNode.previous = null;
             front = newNode;
             newNode.next = null;
-            //back = newNode;
-            n++;
+             n++;
+            System.out.println("You have created a new linked list, this is the first Node");
             return;
         } else if (front != null){
             /*
@@ -139,6 +139,7 @@ public class GonzalezDeque<Item> implements Deque<Item>{
 
             //we just added to the queue, so increase the counter by one
             n++;
+            //success message
         }
     }
 
@@ -387,7 +388,7 @@ public class GonzalezDeque<Item> implements Deque<Item>{
         System.out.println("contents:\n" + deque.toString());
 
         //Using the linkedlist methods
-        deque.
+
 
         //deque features
         /*this is a chaotic line with people cutting in front of others and people in the back of the line
